@@ -35,7 +35,7 @@ The dataset used in this analysis contains 10 columns and 5000 rows of call cent
 - Cleaning: Removing unnecessary columns and rows, and validating the data types to ensure consistency.
 - Transforming: The data was loaded into Power Query for cleaning and transformation before being imported into Power BI for analysis.
 - Validation: Ensuring that each field, such as "Answered (Y/N)" and "Resolved," had the correct values and were properly formatted for calculations.
-
+  
 ## Data Modeling & DAX Measures:
 The cleaned data was modeled using Power BI, and several key DAX (Data Analysis Expressions) measures were created to calculate and display relevant KPIs on the dashboard. Below are some of the key DAX measures:
 
@@ -58,6 +58,14 @@ The cleaned data was modeled using Power BI, and several key DAX (Data Analysis 
        FILTER(CallData, CallData[Resolved] = "Y")
        )
 These DAX measures allowed us to compute the number of answered and resolved calls, along with other metrics, which were crucial for analyzing overall call center performance
+
+## Dashboard:
+
+   ### Page 1: 
+   ![call 1](https://github.com/user-attachments/assets/01f5f4be-4350-46d4-a87c-42d36b3ee9fb)
+   
+   ### Page 2: 
+   ![Call 2](https://github.com/user-attachments/assets/54ef58cd-4add-4576-b303-4e50c39f8996)
 
 ## Insights:
 The analysis of the call center data provided several key insights:
