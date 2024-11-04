@@ -16,11 +16,11 @@
 
  
 > ## **1. Introduction:**
-This report presents the findings from a data analysis project using a Power BI dashboard to monitor and improve the performance of a call center. The analysis is based on a dataset provided by PwC, and the goal was to visualize key performance indicators (KPIs) such as call resolution rates, customer satisfaction, and agent performance. The dashboard offers stakeholders insights into call center efficiency and highlights areas for improvement.
+This report presents the findings from a data analysis project using a Power BI dashboard to monitor and improve a call center's performance. The analysis is based on a dataset provided by PwC, and the goal was to visualize key performance indicators (KPIs) such as call resolution rates, customer satisfaction, and agent performance. The dashboard offers stakeholders insights into call center efficiency and highlights areas for improvement.
 
 
 > ## **2.Problem Statement:**
-The objective of this project was to create an interactive Power BI dashboard for the call center manager, providing relevant KPIs and metrics from the dataset. The dashboard was designed to identify operational bottlenecks, monitor agent performance, and track customer satisfaction levels. Key performance indicators include:
+This project aimed to create an interactive Power BI dashboard for the call center manager, providing relevant KPIs and metrics from the dataset. The dashboard was designed to identify operational bottlenecks, monitor agent performance, and track customer satisfaction. Key performance indicators include:
 
 - Overall call resolution rate
 - Number of calls answered versus abandoned
@@ -51,6 +51,7 @@ The cleaned data was modeled using Power BI, and several key DAX (Data Analysis 
        COUNT(CallData[Call Id.2]),
        CallData[Answered (Y/N)] = "Y"
        )
+  
 - Month: This extracts the month from the call date to analyze call patterns over time.
 
 
@@ -63,6 +64,7 @@ The cleaned data was modeled using Power BI, and several key DAX (Data Analysis 
        COUNT(CallData[Call Id.2]),
        FILTER(CallData, CallData[Resolved] = "Y")
        )
+  
 These DAX measures allowed us to compute the number of answered and resolved calls, along with other metrics, which were crucial for analyzing overall call center performance
 
 > ## **6.Dashboard:**
