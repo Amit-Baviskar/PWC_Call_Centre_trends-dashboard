@@ -15,11 +15,11 @@
 8. **Conclusion**
 
  
-# **1. Introduction:**
+## **1. Introduction:**
 This report presents the findings from a data analysis project using a Power BI dashboard to monitor and improve the performance of a call center. The analysis is based on a dataset provided by PwC, and the goal was to visualize key performance indicators (KPIs) such as call resolution rates, customer satisfaction, and agent performance. The dashboard offers stakeholders insights into call center efficiency and highlights areas for improvement.
 
 
-# **2.Problem Statement:**
+## **2.Problem Statement:**
 The objective of this project was to create an interactive Power BI dashboard for the call center manager, providing relevant KPIs and metrics from the dataset. The dashboard was designed to identify operational bottlenecks, monitor agent performance, and track customer satisfaction levels. Key performance indicators include:
 
 - Overall call resolution rate
@@ -67,24 +67,31 @@ These DAX measures allowed us to compute the number of answered and resolved cal
 
 ## **6.Dashboard:**
 
-   ### Summary Page Light Mode: 
-   ![call 1](https://github.com/user-attachments/assets/01f5f4be-4350-46d4-a87c-42d36b3ee9fb)
-   
-   ### Detail Page Light Mode: 
-   ![Call 2](https://github.com/user-attachments/assets/54ef58cd-4add-4576-b303-4e50c39f8996)
-
-   ### Summary Page Dark Mode: 
-   ![Call 3 Dark ](https://github.com/user-attachments/assets/7ea1b688-a98f-4649-ada4-188730c3b960)
-
-   ### Detail Page Dark Mode: 
-   ![Call 4 Dark ](https://github.com/user-attachments/assets/ca50c648-e184-44f3-af86-51d8dff727f9)
-   
    ### Light Mode GIF: 
+   
    ![Call Light Mode](https://github.com/user-attachments/assets/f6c4f2c5-7984-4db3-a562-6291a35a15ad)
    
    ### Dark Mode GIF: 
-   ![Call Dark Mode](https://github.com/user-attachments/assets/70192f9f-43e6-4b03-9dbd-5c6b086987c3)
    
+   ![Call Dark Mode](https://github.com/user-attachments/assets/70192f9f-43e6-4b03-9dbd-5c6b086987c3)
+
+   ### Summary Page Light Mode: 
+   
+   ![call 1](https://github.com/user-attachments/assets/01f5f4be-4350-46d4-a87c-42d36b3ee9fb)
+   
+   ### Detail Page Light Mode: 
+   
+   ![Call 2](https://github.com/user-attachments/assets/54ef58cd-4add-4576-b303-4e50c39f8996)
+
+   ### Summary Page Dark Mode: 
+   
+   ![Call 3 Dark ](https://github.com/user-attachments/assets/7ea1b688-a98f-4649-ada4-188730c3b960)
+
+   ### Detail Page Dark Mode:
+   
+   ![Call 4 Dark ](https://github.com/user-attachments/assets/ca50c648-e184-44f3-af86-51d8dff727f9)
+   
+    
 
 
 ## **7.Insights:**
